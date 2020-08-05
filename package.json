@@ -1,6 +1,6 @@
 {
   "name": "@dev3mike/currencyrate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Currency Exchange Rates in Iran",
   "main": "index.js",
   "homepage": "https://github.com/dev3mike/Currency-Rate",

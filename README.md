@@ -20,7 +20,7 @@ After that you just need to pick API-KEY up from <a href="https://api24.net/p/da
 <p> For installing CurrencyRate use this command via npm </p>
 
 ```node
-npm install CurrencyRate
+npm install @dev3mike/currencyrate
 ```
 
 
@@ -32,11 +32,31 @@ If you don't have npm you can easily install it from  [npm website](https://www.
 Well, There is three examples to get Data from the service:
 
 ```node
-const CurrencyRate = require('currencyrate');
+const { CurrencyRate } = require("@dev3mike/currencyrate");
 const cr = new CurrencyRate("YOUR_API_KEY");
 
 // Get List of Rates
 const prices = await cr.rates(); // Result in Array 
 console.log("Prices in Array", prices);
+
+/*
+sample output
+[
+  Rate {
+    title: 'USD',
+    price: 10000,
+    measure: 'TOMAN',
+    date: undefined
+  },
+  Rate {
+    title: 'EUR',
+    price: 10000,
+    measure: 'TOMAN',
+    date: undefined
+  },
+  ....
+]
+*/
+```
 
 
