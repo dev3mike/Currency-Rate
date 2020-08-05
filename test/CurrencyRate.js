@@ -1,5 +1,5 @@
 const assert = require("assert");
-const CurrencyRate = require("../dist/index");
+const CurrencyRate = require("../");
 
 const demoApiKey = "SAMPLE_API_KEY";
 let cr = null;
