@@ -1,14 +1,11 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const index_1 = __importDefault(require("./index"));
+const index_1 = require("./index");
 // import RateInterface from './interfaces/Rate';
 const rates = async () => {
     try {
         const demoApiKey = "YOUR_API_KEY";
-        const cr = new index_1.default(demoApiKey);
+        const cr = new index_1.CurrencyRate(demoApiKey);
         // Get List of Rates
         const prices = await cr.rates(); // Result in Array 
         console.log("Prices in Array", prices);

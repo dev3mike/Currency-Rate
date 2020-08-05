@@ -1,4 +1,4 @@
-import CurrencyRate from './index';
+import { CurrencyRate } from './index';
 // import RateInterface from './interfaces/Rate';
 
 const rates = async () => {

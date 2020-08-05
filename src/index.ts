@@ -1,3 +1,3 @@
-import { default as CurrencyRate } from './classes/CurrencyRate';
+export { default as CurrencyRate } from './classes/CurrencyRate';
 
-export default CurrencyRate;
+// module.exports = CurrencyRate;

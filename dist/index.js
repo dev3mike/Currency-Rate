@@ -1,7 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const CurrencyRate_1 = __importDefault(require("./classes/CurrencyRate"));
-exports.default = CurrencyRate_1.default;
+var CurrencyRate_1 = require("./classes/CurrencyRate");
+Object.defineProperty(exports, "CurrencyRate", { enumerable: true, get: function () { return CurrencyRate_1.default; } });
+// module.exports = CurrencyRate;
