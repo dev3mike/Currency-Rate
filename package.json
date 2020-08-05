@@ -25,6 +25,7 @@
   },
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^14.0.27",
     "axios": "^0.19.2",
     "moment-jalaali": "^0.9.2"
   },
