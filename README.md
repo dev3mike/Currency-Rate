@@ -101,3 +101,4 @@ Output should be float
 */
 ```
 
+<a href="https://api24.net/api/currency-gold-rate" title="وب سرویس نرخ ارز">وب سرویس نرخ ارز</a>
