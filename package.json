@@ -1,6 +1,6 @@
 {
-  "name": "@dev3mike/currencyrate",
-  "version": "1.0.2",
+  "name": "api24-currencyrate",
+  "version": "1.0.3",
   "description": "Currency Exchange Rates in Iran",
   "main": "index.js",
   "homepage": "https://github.com/dev3mike/Currency-Rate",
@@ -11,9 +11,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/dev3mike/Currency-Rate.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "currency",
